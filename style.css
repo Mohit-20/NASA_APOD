@@ -16,8 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Loader */
@@ -35,7 +35,7 @@ body {
 /* Navigation */
 .navigation-container {
   position: fixed;
-  top: 0;
+  bottom: 0;
 }
 
 .navigation-items {
@@ -64,7 +64,8 @@ body {
 /* Images Container */
 .images-container {
   width: 800px;
-  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 5px;
 }
 
 .card {
