@@ -16,8 +16,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 25px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 /* Loader */
