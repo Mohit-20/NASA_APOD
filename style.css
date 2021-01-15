@@ -35,7 +35,7 @@ body {
 /* Navigation */
 .navigation-container {
   position: fixed;
-  top: 0;
+  bottom: 0;
 }
 
 .navigation-items {
@@ -133,5 +133,9 @@ body {
   }
   .save-confirmed {
     right: 25px;
+  }
+  .navigation-container {
+    position: fixed;
+    bottom: 0;
   }
 }
